@@ -5,7 +5,7 @@ namespace Utilities
 	namespace DummyFunctions {
 
 		template <typename T>
-		T Read(uintptr_t src, size_t size = sizeof(T))
+		T Read(uintptr_t dummy)
 		{
 			T buffer;
 			return buffer;
