@@ -112,7 +112,7 @@ namespace UnrealEngine
 
 			auto RelativeRotation(uintptr_t Pawn) -> FVector {
 				auto RootComponent = Read<uintptr_t>(Pawn + Offsets::RootComponentOffset);
-				return Read<FVector>(RootComponent + Offsets::RelativeLocationOffset);
+				return Read<FVector>(RootComponent + Offsets::RelativeRotationOffset);
 			};
 
 			auto UniqueID(uintptr_t Pawn) -> int {
