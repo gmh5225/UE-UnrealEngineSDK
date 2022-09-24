@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Utils.hpp">
+      <Filter>Others</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{258bb6cd-dfba-4bdd-8e2a-c80eae39bf8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Others">
+      <UniqueIdentifier>{a2cfea27-1a1e-4d10-be0d-8d00a50e8bd5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SDK.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.hpp">
+      <Filter>Others</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
