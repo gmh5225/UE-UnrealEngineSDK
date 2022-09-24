@@ -8,7 +8,6 @@ namespace Utilities
 		T Read(uintptr_t src, size_t size = sizeof(T))
 		{
 			T buffer;
-			src = (uintptr_t)& buffer;
 			return buffer;
 		}
 
